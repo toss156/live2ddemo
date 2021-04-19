@@ -1,0 +1,11 @@
+# coding: utf-8
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+
+target 'Live2DIntegration' do
+
+    # 人脸检测
+    pod 'MNNFaceDetection', '~> 0.0.4'
+    
+end
